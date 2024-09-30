@@ -21,7 +21,3 @@ ios/
 .babelrc.cts
 .babelrc.mts
 
-# Diretórios do Metro
-.metro/
-packager-info.json
-react-native.config.js
