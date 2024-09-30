@@ -1,35 +1,27 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
-# dependencies
+# Diretórios do Node.js
 node_modules/
+npm-debug.log
+yarn-error.log
 
-# Expo
+# Diretórios do Expo
 .expo/
-dist/
-web-build/
+.expo-shared/
 
-# Native
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
+# Diretórios do React Native
+android/
+ios/
 
-# Metro
-.metro-health-check*
+# Diretórios do Babel
+.babelrc
+.babelrc.js
+.babelrc.json
+.babelrc.cjs
+.babelrc.mjs
+.babelrc.ts
+.babelrc.cts
+.babelrc.mts
 
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
-
-# macOS
-.DS_Store
-*.pem
-
-# local env files
-.env*.local
-
-# typescript
-*.tsbuildinfo
+# Diretórios do Metro
+.metro/
+packager-info.json
+react-native.config.js
